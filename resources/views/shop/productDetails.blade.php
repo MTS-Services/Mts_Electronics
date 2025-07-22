@@ -661,16 +661,16 @@ $footer='flase';
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/1.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Pronix Smart Laptop</a>
+                                    <a href="{{ route('index') }}" class="product-name">Pronix Smart Laptop</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
-                                            <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
+                                            <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
                                                 Add
                                                 To
                                                 Cart</a>
@@ -682,16 +682,16 @@ $footer='flase';
                         </div>
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/2.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Pronix Smart Laptop</a>
+                                    <a href="{{ route('index') }}" class="product-name">Pronix Smart Laptop</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
-                                            <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
+                                            <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
                                                 Add
                                                 To
                                                 Cart</a>
@@ -703,16 +703,16 @@ $footer='flase';
                         </div>
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/3.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Pronix Camera</a>
+                                    <a href="{{ route('index') }}" class="product-name">Pronix Camera</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
-                                            <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
+                                            <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
                                                 Add
                                                 To
                                                 Cart</a>
@@ -724,16 +724,16 @@ $footer='flase';
                         </div>
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/5.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Extra Powerful PC Cooler</a>
+                                    <a href="{{ route('index') }}" class="product-name">Extra Powerful PC Cooler</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
-                                            <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
+                                            <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
                                                 Add
                                                 To
                                                 Cart</a>
@@ -745,16 +745,16 @@ $footer='flase';
                         </div>
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/6.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Extra Powerful PC Cooler</a>
+                                    <a href="{{ route('index') }}" class="product-name">Extra Powerful PC Cooler</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
-                                            <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
+                                            <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
                                                 Add
                                                 To
                                                 Cart</a>
@@ -779,7 +779,7 @@ $footer='flase';
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
-                    <a href="{{ route('productDetails') }}" class="product-box product-box-medium product-box-medium2">
+                    <a href="{{ route('index') }}" class="product-box product-box-medium product-box-medium2">
                         <div class="contents">
                             <span class="pretitle">Great Stores</span>
                             <h1 class="product-title">Last Call for up <br> to 30% off</h1>
@@ -791,7 +791,7 @@ $footer='flase';
                     </a>
                 </div>
                 <div class="col-xl-6">
-                    <a href="{{ route('productDetails') }}" class="product-box product-box-medium mid">
+                    <a href="{{ route('index') }}" class="product-box product-box-medium mid">
                         <div class="contents">
                             <span class="pretitle">-45% Offer</span>
                             <h1 class="product-title">New
@@ -803,7 +803,7 @@ $footer='flase';
                     </a>
                 </div>
                 <div class="col-xl-3">
-                    <a href="{{ route('productDetails') }}" class="product-box product-box-medium product-box-medium3">
+                    <a href="{{ route('index    ') }}" class="product-box product-box-medium product-box-medium3">
                         <div class="contents">
                             <span class="pretitle">ELECTRONICS</span>
                             <h1 class="product-title">Home Speaker</h1>
@@ -1012,13 +1012,13 @@ $footer='flase';
                         <div class="contents">
                             <h3 class="catagory-title">Cell Phones</h3>
                             <ul class="catagory-lists">
-                                <li><a href="{{ route('category') }}">iPhone <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Phone Accessories <i class="fal fa-angle-right"></i></a>
+                                <li><a href="{{ route('index') }}">iPhone <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Phone Accessories <i class="fal fa-angle-right"></i></a>
                                 </li>
-                                <li><a href="{{ route('category') }}">Phone Cases <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Postpaid Phones <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Phone Cases <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Postpaid Phones <i class="fal fa-angle-right"></i></a></li>
                             </ul>
-                            <a href="{{ route('category') }}" class="all-btn">All Cell Phones <i
+                            <a href="{{ route('index') }}" class="all-btn">All Cell Phones <i
                                     class="fal fa-long-arrow-right ml--5"></i></a>
                         </div>
                         <div class="category-thumb"><img src="{{ asset('assets/images/products/home4/catagory/1.png') }}"

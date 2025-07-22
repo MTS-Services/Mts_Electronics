@@ -31,13 +31,7 @@ $footer='flase';
                             <div class="search-input-inner">
                                 <select class="custom-select">
                                     <option value="hide">All Catagory</option>
-                                    <option value="all">All</option>
-                                    <option value="men">Men</option>
-                                    <option value="women">Women</option>
-                                    <option value="shoes">Shoes</option>
-                                    <option value="shoes">Glasses</option>
-                                    <option value="shoes">Bags</option>
-                                    <option value="shoes">Assesories</option>
+                                     
                                 </select>
                                 <div class="input-div">
                                     <div class="search-input-icon"><i class="rt-search mr--10"></i>Search</div>
@@ -45,7 +39,7 @@ $footer='flase';
                                 </div>
                             </div>
                         </div>
-                        <a href="{{ route('index') }}" class="logo"><img src="{{ asset('assets/images/logo2.png') }}" alt="weiboo-logo"></a>
+                        <a href="{{ route('index') }}" class="logo"><img src="{{ asset('assets/images/logo110.png') }}" alt="weiboo-logo" width="100px"></a>
                         <div class="navbar-select-area">
                             <select class="topbar-select custom-select">
                                 <option value="eng">Eng</option>
@@ -75,12 +69,12 @@ $footer='flase';
                             </div>
                             <div class="cart action-item">
                                 <div class="cart-nav">
-                                    <div class="cart-icon icon"><i class="rt-cart"></i><span
+                                    <div class="  icon"><a href="{{ route('index')}}"><i class="rt-cart"></i></a><span
                                             class="wishlist-dot icon-dot">3</span></div>
                                 </div>
                             </div>
                             <div class="wishlist action-item">
-                                <div class="favourite-icon icon"><a href="{{ route('wishlist') }}"><i class="rt-heart"></i></a>
+                                <div class="favourite-icon icon"><a href="{{ route('index') }}"><i class="rt-heart"></i></a>
                                 </div>
                             </div>
                             <a href="{{ route('login') }}" class="account"><i class="rt-user-2"></i></a>
@@ -99,26 +93,26 @@ $footer='flase';
                             <div class="icon"><img src="{{ asset('assets/images/icons/percent-tag.png') }}" alt="tag-icon"></div>
                             <div class="content">
                                 <span class="title">COUPON CODE</span>
-                                <span class="code">WEIBOO45%</span>
+                                <span class="code">Electron45%</span>
                             </div>
                         </div>
                         <div class="rts-menu">
                             <nav class="menus menu-toggle">
                                 <ul class="nav__menu">
-                                    <li class="has-dropdown"><a class="menu-item active1" href="#">Home <i
+                                    <li class="has-dropdown"><a class="menu-item active1" href="{{route('index')}}">Home <i
                                                 class="rt-plus"></i></a>
                                          
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Shop <i
+                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/">Shop <i
                                                 class="rt-plus"></i></a>
                                        
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Pages <i
+                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/about/">Pages <i
                                                 class="rt-plus"></i></a>
                                        
                                     </li>
 
-                                    <li class="has-dropdown"><a class="menu-item" href="#">Blog <i
+                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/portfolio/">Blog <i
                                                 class="rt-plus"></i></a>
                                       
                                     </li>
@@ -409,7 +403,7 @@ $footer='flase';
                     <div class="swiper bannerSlider">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="{{ route('productDetails') }}" class="product-box product-box-large">
+                                <a href="{{ route('index') }}" class="product-box product-box-large">
                                     <div class="contents">
                                         <span class="pretitle">Weekend Discount</span>
                                         <h1 class="product-title">Big screens in <br>
@@ -451,7 +445,7 @@ $footer='flase';
                 <div class="col-xl-4">
                     <div class="row">
                         <div class="col-xl-12">
-                            <a href="{{ route('productDetails') }}" class="product-box product-box-medium">
+                            <a href="{{ route('index') }}" class="product-box product-box-medium">
                                 <div class="contents">
                                     <span class="pretitle">-45% Offer</span>
                                     <h1 class="product-title">New
@@ -463,7 +457,7 @@ $footer='flase';
                             </a>
                         </div>
                         <div class="col-xl-12">
-                            <a href="{{ route('productDetails') }}" class="product-box product-box-medium product-box-medium2">
+                            <a href="{{ route('index') }}" class="product-box product-box-medium product-box-medium2">
                                 <div class="contents">
                                     <span class="pretitle">Great Stores</span>
                                     <h1 class="product-title">Call for up to 30% off</h1>
@@ -475,7 +469,7 @@ $footer='flase';
                             </a>
                         </div>
                         <div class="col-xl-12">
-                            <a href="{{ route('productDetails') }}"
+                            <a href="{{ route('index') }}"
                                 class="product-box product-box-medium product-box-medium3 product-box-bg">
                                 <div class="contents">
                                     <span class="pretitle">SUPER DISCOUNT</span>
@@ -558,16 +552,16 @@ $footer='flase';
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/1.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Pronix Smart Laptop</a>
+                                    <a href="{{ route('index') }}" class="product-name">Pronix Smart Laptop</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
-                                            <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
+                                            <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
                                                 Add
                                                 To
                                                 Cart</a>
@@ -579,16 +573,16 @@ $footer='flase';
                         </div>
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/2.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Pronix Smart Laptop</a>
+                                    <a href="{{ route('index') }}" class="product-name">Pronix Smart Laptop</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
-                                            <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
+                                            <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
                                                 Add
                                                 To
                                                 Cart</a>
@@ -600,16 +594,16 @@ $footer='flase';
                         </div>
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/3.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Pronix Camera</a>
+                                    <a href="{{ route('index') }}" class="product-name">Pronix Camera</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
-                                            <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
+                                            <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
                                                 Add
                                                 To
                                                 Cart</a>
@@ -621,16 +615,16 @@ $footer='flase';
                         </div>
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/5.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Extra Powerful PC Cooler</a>
+                                    <a href="{{ route('index') }}" class="product-name">Extra Powerful PC Cooler</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
-                                            <a href="{{ route('cart') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
+                                            <a href="{{ route('index') }}" class="addto-cart"><i class="fal fa-shopping-cart"></i>
                                                 Add
                                                 To
                                                 Cart</a>
@@ -642,12 +636,12 @@ $footer='flase';
                         </div>
                         <div class="swiper-slide">
                             <div class="product-item product-item4">
-                                <a href="{{ route('productDetails') }}" class="product-image">
+                                <a href="{{ route('index') }}" class="product-image">
                                     <img src="{{ asset('assets/images/products/home4/6.png') }}" alt="product-image">
                                 </a>
                                 <div class="bottom-content">
                                     <span class="product-catagory">Electronics</span>
-                                    <a href="{{ route('productDetails') }}" class="product-name">Extra Powerful PC Cooler</a>
+                                    <a href="{{ route('index') }}" class="product-name">Extra Powerful PC Cooler</a>
                                     <div class="flex-wrap">
                                         <div class="action-wrap">
                                             <span class="product-price">$230,00</span>
@@ -676,7 +670,7 @@ $footer='flase';
         <div class="container">
             <div class="row">
                 <div class="col-xl-3">
-                    <a href="{{ route('productDetails') }}" class="product-box product-box-medium product-box-medium2">
+                    <a href="{{ route('index') }}" class="product-box product-box-medium product-box-medium2">
                         <div class="contents">
                             <span class="pretitle">Great Stores</span>
                             <h1 class="product-title">Last Call for up <br> to 30% off</h1>
@@ -688,7 +682,7 @@ $footer='flase';
                     </a>
                 </div>
                 <div class="col-xl-6">
-                    <a href="{{ route('productDetails') }}" class="product-box product-box-medium mid">
+                    <a href="{{ route('index') }}" class="product-box product-box-medium mid">
                         <div class="contents">
                             <span class="pretitle">-45% Offer</span>
                             <h1 class="product-title">New
@@ -700,7 +694,7 @@ $footer='flase';
                     </a>
                 </div>
                 <div class="col-xl-3">
-                    <a href="{{ route('productDetails') }}" class="product-box product-box-medium product-box-medium3">
+                    <a href="{{ route('index') }}" class="product-box product-box-medium product-box-medium3">
                         <div class="contents">
                             <span class="pretitle">ELECTRONICS</span>
                             <h1 class="product-title">Home Speaker</h1>
@@ -909,13 +903,13 @@ $footer='flase';
                         <div class="contents">
                             <h3 class="catagory-title">Cell Phones</h3>
                             <ul class="catagory-lists">
-                                <li><a href="{{ route('category') }}">iPhone <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Phone Accessories <i class="fal fa-angle-right"></i></a>
+                                <li><a href="{{ route('index') }}">iPhone <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Phone Accessories <i class="fal fa-angle-right"></i></a>
                                 </li>
-                                <li><a href="{{ route('category') }}">Phone Cases <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Postpaid Phones <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Phone Cases <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Postpaid Phones <i class="fal fa-angle-right"></i></a></li>
                             </ul>
-                            <a href="{{ route('category') }}" class="all-btn">All Cell Phones <i
+                            <a href="{{ route('index') }}" class="all-btn">All Cell Phones <i
                                     class="fal fa-long-arrow-right ml--5"></i></a>
                         </div>
                         <div class="category-thumb"><img src="{{ asset('assets/images/products/home4/catagory/1.png') }}"
@@ -927,13 +921,13 @@ $footer='flase';
                         <div class="contents">
                             <h3 class="catagory-title">Headphones</h3>
                             <ul class="catagory-lists">
-                                <li><a href="{{ route('category') }}">Noise Canceling <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Over-EAR <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Premium Headphones <i class="fal fa-angle-right"></i></a>
+                                <li><a href="{{ route('index') }}">Noise Canceling <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Over-EAR <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Premium Headphones <i class="fal fa-angle-right"></i></a>
                                 </li>
-                                <li><a href="{{ route('category') }}">Sports & Fitness <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Sports & Fitness <i class="fal fa-angle-right"></i></a></li>
                             </ul>
-                            <a href="{{ route('category') }}" class="all-btn">Headphones <i
+                            <a href="{{ route('index') }}" class="all-btn">Headphones <i
                                     class="fal fa-long-arrow-right ml--5"></i></a>
                         </div>
                         <div class="category-thumb"><img src="{{ asset('assets/images/products/home4/catagory/2.png') }}"
@@ -945,12 +939,12 @@ $footer='flase';
                         <div class="contents">
                             <h3 class="catagory-title">Watches</h3>
                             <ul class="catagory-lists">
-                                <li><a href="{{ route('category') }}">Sport Watches <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Timex Watches <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Watch Brands <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Women Watches <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Sport Watches <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Timex Watches <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Watch Brands <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Women Watches <i class="fal fa-angle-right"></i></a></li>
                             </ul>
-                            <a href="{{ route('category') }}" class="all-btn">All Watches <i
+                            <a href="{{ route('index') }}" class="all-btn">All Watches <i
                                     class="fal fa-long-arrow-right ml--5"></i></a>
                         </div>
                         <div class="category-thumb"><img src="{{ asset('assets/images/products/home4/catagory/3.png') }}"
@@ -962,12 +956,12 @@ $footer='flase';
                         <div class="contents">
                             <h3 class="catagory-title">Monitors</h3>
                             <ul class="catagory-lists">
-                                <li><a href="{{ route('category') }}">Gaming <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Ultra Wide <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">Office <i class="fal fa-angle-right"></i></a></li>
-                                <li><a href="{{ route('category') }}">TV <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Gaming <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Ultra Wide <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">Office <i class="fal fa-angle-right"></i></a></li>
+                                <li><a href="{{ route('index') }}">TV <i class="fal fa-angle-right"></i></a></li>
                             </ul>
-                            <a href="{{ route('category') }}" class="all-btn">All Monitors <i
+                            <a href="{{ route('index') }}" class="all-btn">All Monitors <i
                                     class="fal fa-long-arrow-right ml--5"></i></a>
                         </div>
                         <div class="category-thumb"><img src="{{ asset('assets/images/products/home4/catagory/4.png') }}"
@@ -990,13 +984,13 @@ $footer='flase';
             <div class="row justify-content-center">
                 <div class="col-xl-4 col-md-6">
                     <div class="feed-item">
-                        <a href="{{ route('newsDetails') }}" class="feed-image"><img src="{{ asset('assets/images/post/feed4.jpg') }}"
+                        <a href="{{ route('index') }}" class="feed-image"><img src="{{ asset('assets/images/post/feed4.jpg') }}"
                                 alt="feed-image"></a>
                         <div class="contents">
                             <div class="feed-info">
-                                <a href="{{ route('category') }}" class="feed-catagory">Electronics</a>
+                                <a href="{{ route('index') }}" class="feed-catagory">Electronics</a>
                             </div>
-                            <h2 class="feed-title"><a href="{{ route('newsDetails') }}">The post-pandemic consumer is embracing
+                            <h2 class="feed-title"><a href="{{ route('index') }}">The post-pandemic consumer is embracing
                                     secondhand clothes</a></h2>
                             <div class="author">
                                 <div class="author-dp"><img src="{{ asset('assets/images/items/author1.png') }}" alt="author-dp"></div>
@@ -1010,33 +1004,33 @@ $footer='flase';
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="feed-item">
-                        <a href="{{ route('newsDetails') }}" class="feed-image"><img src="{{ asset('assets/images/post/feed5.jpg') }}"
+                        <a href="{{ route('index') }}" class="feed-image"><img src="{{ asset('assets/images/post/feed5.jpg') }}"
                                 alt="feed-image"></a>
                         <div class="contents">
                             <div class="feed-info">
-                                <a href="{{ route('category') }}" class="feed-catagory">Electronics</a>
+                                <a href="{{ route('index') }}" class="feed-catagory">Electronics</a>
                             </div>
-                            <h2 class="feed-title"><a href="{{ route('newsDetails') }}">The post-pandemic consumer is embracing
+                            <h2 class="feed-title"><a href="{{ route('index') }}">The post-pandemic consumer is embracing
                                     secondhand clothes</a></h2>
                             <div class="author">
                                 <div class="author-dp"><img src="{{ asset('assets/images/items/author1.png') }}" alt="author-dp"></div>
                                 <div class="content">
                                     <h4 class="author-name">Alonso D. Dowson</h4>
                                     <span class="title">Author</span>
-                                </div>
+                                </div> 
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-xl-4 col-md-6">
                     <div class="feed-item last-child">
-                        <a href="{{ route('newsDetails') }}" class="feed-image"><img src="{{ asset('assets/images/post/feed6.jpg') }}"
+                        <a href="{{ route('index') }}" class="feed-image"><img src="{{ asset('assets/images/post/feed6.jpg') }}"
                                 alt="feed-image"></a>
                         <div class="contents">
                             <div class="feed-info">
-                                <a href="{{ route('category') }}" class="feed-catagory">Electronics</a>
+                                <a href="{{ route('index') }}" class="feed-catagory">Electronics</a>
                             </div>
-                            <h2 class="feed-title"><a href="{{ route('newsDetails') }}">The post-pandemic consumer is embracing
+                            <h2 class="feed-title"><a href="{{ route('index') }}">The post-pandemic consumer is embracing
                                     secondhand clothes</a></h2>
                             <div class="author">
                                 <div class="author-dp"><img src="{{ asset('assets/images/items/author1.png') }}" alt="author-dp"></div>
@@ -1196,7 +1190,7 @@ $footer='flase';
                                     <button class="button plus">+<i class="fal fa-plus plus"></i></button>
                                 </div>
                             </div>
-                            <a href="{{ route('cart') }}" class="addto-cart-btn action-item"><i class="rt-basket-shopping"></i>
+                            <a href="{{ route('index') }}" class="addto-cart-btn action-item"><i class="rt-basket-shopping"></i>
                                 Add To
                                 Cart</a>
                             <a href="{{ route('wishlist') }}" class="wishlist-btn action-item"><i class="rt-heart"></i></a>
@@ -1233,7 +1227,7 @@ $footer='flase';
                 <div class="row">
                     <div class="col-xl-3 col-md-6 col-sm-6 box-widget-col">
                         <div class="footer-widget footer-box-widget">
-                            <div class="footer-logo"><img src="{{ asset('assets/images/logo2.png') }}" alt="footer-logo"></div>
+                            <div class="footer-logo"><img src="{{ asset('assets/images/logo110.png') }}" alt="footer-logo"></div>
                             <p>Solid is the information & experience
                                 directed at an end-user</p>
                             <div class="quick-contact">
@@ -1249,8 +1243,8 @@ $footer='flase';
                                     <div class="icon"><img src="{{ asset('assets/images/icons/mail2.png') }}" alt="phone-icon">
                                     </div>
                                     <div class="contact-info">
-                                        <a href="mailto:pixcelsthemes@gmail.com"
-                                            class="email-address info">pixcelsthemes@gmail.com</a>
+                                        <a href="mailto:maktechsolution@gmail.com"
+                                            class="email-address info">maktechsoli@gmail.com</a>
                                         <span class="title">Get Support</span>
                                     </div>
                                 </div>
@@ -1330,8 +1324,8 @@ $footer='flase';
         <div class="footer-bottom-area">
             <div class="container">
                 <div class="footer-bottom-inner">
-                    <span class="copyright">Copyright & Design By <a href="http://PixcelsThemes.com" class="brand"
-                            target="_blank">PixcelsThemes</a> -2024</span>
+                    <span class="copyright">Copyright & Design By <a href="http://maktechsolution.com" class="brand"
+                            target="_blank">maktechsolution</a> -2024</span>
                 </div>
             </div>
         </div>
