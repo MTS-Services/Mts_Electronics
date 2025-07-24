@@ -6,7 +6,7 @@ $header='flase';
 $footer='flase';
 @endphp
 
-@section('content')
+@section('content')     
 
     <!-- ..::Header Section Start Here::.. -->
     <header id="rtsHeader">
