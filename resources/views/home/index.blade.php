@@ -103,16 +103,16 @@ $footer='flase';
                                                 class="rt-plus"></i></a>
                                          
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/">Shop <i
+                                    <li class="has-dropdown"><a class="menu-item" href="#Featured_Products">Featured Products<i
                                                 class="rt-plus"></i></a>
                                        
                                     </li>
-                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/about/">Pages <i
+                                    <li class="has-dropdown"><a class="menu-item" href="#Best_Category">Best Category <i
                                                 class="rt-plus"></i></a>
                                        
                                     </li>
 
-                                    <li class="has-dropdown"><a class="menu-item" href="https://maktechsolution.com/portfolio/">Blog <i
+                                    <li class="has-dropdown"><a class="menu-item" href="#Blog&Insights">Blog & Insights <i
                                                 class="rt-plus"></i></a>
                                       
                                     </li>
@@ -540,7 +540,7 @@ $footer='flase';
     <!-- ..::Newsletter Section End Here::.. -->
 
     <!-- ..::Featured Products Section Start Here::.. -->
-    <div class="rts-featured_products-section section-5 section-gap">
+    <div class="rts-featured_products-section section-5 section-gap" id="Featured_Products">
         <div class="container">
             <div class="section-header section-header4">
                 <span class="section-title section-title-2 mb--5
@@ -890,7 +890,7 @@ $footer='flase';
     <!-- ..::Deal Section End Here::.. -->
 
     <!-- ..::Newsletter Section Start Here::.. -->
-    <div class="rts-best-catagory-section section-gap">
+    <div class="rts-best-catagory-section section-gap" id="Best_Category">
         <div class="container">
             <div class="section-header section-header4">
                 <span class="section-title section-title-2 mb--5
@@ -974,7 +974,7 @@ $footer='flase';
     <!-- ..::Newsletter Section End Here::.. -->
 
     <!-- ..::Feeds Section Start Here::.. -->
-    <div class="rts-feeds-section rts-feeds-section2 section-gap">
+    <div class="rts-feeds-section rts-feeds-section2 section-gap" id="Blog&Insights">
         <div class="container">
             <div class="section-header section-header4">
                 <span class="section-title section-title-2 mb--5
